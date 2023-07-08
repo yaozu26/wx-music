@@ -1,0 +1,10 @@
+<view class="song-item" bindtap="onItemClick">
+  <view class="left">{{sort+1}}</view>
+  <view class="desc">
+    <view class="name">{{itemData.name}}</view>
+    <view class="bottom">
+      <image src="/assets/images/icons/sq_icon.png" mode="widthFix" class="img"/>
+      <view class="ar">{{ar}}</view>
+    </view>
+  </view>
+</view>

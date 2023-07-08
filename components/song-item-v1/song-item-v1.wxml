@@ -1,0 +1,15 @@
+<view class="song-item" bindtap="onItemClick">
+  <view class="info">
+    <view class="cover">
+      <image class="image" src="{{itemData.al.picUrl}}" mode="widthFix" />
+    </view>
+    <view class="desc">
+      <view class="title">{{itemData.name}}</view>
+      <view class="author">{{itemData.ar[0].name}}</view>
+    </view>
+  </view>
+
+  <view class="right">
+    <van-icon name="arrow" />
+  </view>
+</view>

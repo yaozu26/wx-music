@@ -1,0 +1,6 @@
+<view class="rank-item">
+  <view class="title">{{playlistData.name}}</view>
+
+  <!-- 歌单列表 -->
+  <song-list songlist="{{playlistData.tracks}}"/>
+</view>

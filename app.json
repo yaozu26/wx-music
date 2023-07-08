@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/main-music/main-music",
+    "pages/main-vedio/main-vedio",
+    "components/vedio-item/vedio-item",
+    "pages/detail-vedio/detail-vedio",
+    "pages/detail-search/detail-search",
+    "components/area-header/area-header",
+    "components/song-item-v1/song-item-v1",
+    "pages/detail-songs/detail-songs",
+    "components/menu-hot-song/menu-hot-song",
+    "pages/detail-menu/detail-menu",
+    "components/music-rank-list/music-rank-list",
+    "pages/detail-rank/detail-rank",
+    "pages/detail-hot/detail-hot",
+    "components/hot-song-item/hot-song-item",
+    "components/song-item/song-item",
+    "components/song-list/song-list",
+    "pages/music-player/music-player",
+    "components/nav-bar/nav-bar"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "YZMusic",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/main-music/main-music",
+        "text": "音乐",
+        "iconPath": "/assets/images/tabbar/music_normal.png",
+        "selectedIconPath": "/assets/images/tabbar/music_active.png"
+      },
+      {
+        "pagePath": "pages/main-vedio/main-vedio",
+        "text": "视频",
+        "iconPath": "/assets/images/tabbar/video_normal.png",
+        "selectedIconPath": "/assets/images/tabbar/video_active.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

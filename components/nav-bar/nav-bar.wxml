@@ -1,0 +1,15 @@
+<view class="nav-bar" style="margin-top: {{statusBarHeight}}px">
+  <view class="left">
+    <view class="slot">
+      <slot name="left">
+      </slot>
+    </view>
+    <view class="default" bindtap="backPageClick">
+      <van-icon name="arrow-left" />
+    </view>
+  </view>
+  <view class="center">
+    <slot name="center"></slot>
+  </view>
+  <view class="right"></view>
+</view>

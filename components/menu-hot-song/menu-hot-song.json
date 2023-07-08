@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "hot-song-item": "/components/hot-song-item/hot-song-item"
+  }
+}

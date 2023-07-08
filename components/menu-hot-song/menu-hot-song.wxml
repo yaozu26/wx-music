@@ -1,0 +1,9 @@
+<wxs src="/utils/format.wxs" module="fmt"></wxs>
+
+<view class="song-list">
+  <view class="song-list-wrap">
+    <block wx:for="{{songlistData}}" wx:key="id">
+      <hot-song-item hotSongItem="{{item}}"/>
+    </block>
+  </view>
+</view>

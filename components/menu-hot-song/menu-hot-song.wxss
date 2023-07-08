@@ -1,0 +1,12 @@
+.song-list-wrap {
+  margin: 0 -30rpx;
+  display: flex;
+  margin-top: 20rpx;
+  overflow-x: auto;
+}
+/* 隐藏滚动条 */
+.song-list-wrap::-webkit-scrollbar {
+  width: 0;
+}
+
+

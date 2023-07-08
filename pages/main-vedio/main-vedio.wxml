@@ -1,0 +1,5 @@
+<view class="vedio-list">
+  <block wx:for="{{vedioList}}" wx:key="index">
+    <vedio-item class="item" itemData = "{{item}}"/>
+  </block>
+</view>

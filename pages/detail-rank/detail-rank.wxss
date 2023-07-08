@@ -1,0 +1,6 @@
+.title {
+  padding-left: 20rpx;
+  font-size: 40rpx;
+  font-weight: 700;
+  margin: 20rpx 0;
+}

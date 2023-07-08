@@ -1,0 +1,9 @@
+<view class="item" bindtap="onHotItemClick">
+  <view class="cover">
+    <image class="image" src="{{hotSongItem.coverImgUrl}}" mode="widthFix" />
+    <view class="playCount">{{fmt.formatCount(hotSongItem.playCount)}}</view>
+  </view>
+  <view class="name">
+    {{hotSongItem.name}}
+  </view>
+</view>

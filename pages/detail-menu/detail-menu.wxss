@@ -1,0 +1,51 @@
+.menu-list {
+  padding: 0 20rpx;
+}
+
+.title {
+  padding: 30rpx 0;
+  font-size: 40rpx;
+  font-weight: 700;
+}
+
+.song-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30rpx;
+}
+
+.item {
+  width: 49%;
+  margin-bottom: 30rpx;
+}
+
+.cover {
+  position: relative;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+
+.image {
+  vertical-align: top;
+  width: 100%;
+}
+
+.playCount {
+  position: absolute;
+  bottom: 5rpx;
+  right: 5rpx;
+  padding: 4rpx 8rpx;
+  font-size: 24rpx;
+  color: #eee;
+  border-radius: 10rpx;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.desc {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}

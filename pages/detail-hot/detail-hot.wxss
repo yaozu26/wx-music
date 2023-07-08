@@ -1,0 +1,87 @@
+/* 顶部banner */
+.banner {
+  position: relative;
+  height: 450rpx;
+}
+
+.bg {
+  position: absolute;
+  z-index: -1;
+  vertical-align: top;
+  width: 100%;
+  height: 100%;
+}
+
+.cover {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  backdrop-filter: blur(2px);
+}
+
+.wrap {
+  position: absolute;
+  top: 0;
+  color: #fff;
+}
+
+.info {
+  display: flex;
+  padding: 60rpx;
+}
+
+.photo {
+  vertical-align: top;
+  width: 220rpx;
+  border-radius: 20rpx;
+}
+
+.desc-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 40rpx;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  width: 50rpx;
+  border-radius: 50%;
+}
+
+.ar {
+  padding-left: 20rpx;
+  font-size: 24rpx;
+}
+
+.desc {
+  font-size: 24rpx;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.favor-share {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.favor,.share {
+  display: flex;
+  align-items: center;
+}
+
+.ig {
+  padding-right: 10rpx;
+  width: 50rpx;
+}

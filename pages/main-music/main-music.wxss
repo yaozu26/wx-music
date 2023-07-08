@@ -1,0 +1,21 @@
+page{
+  --search-background-color: #fff;
+  --search-padding: 10px 0;
+
+  box-sizing: border-box;
+  padding: 0 24rpx;
+  background: #fafafa
+}
+
+.banner {
+  border-radius: 12rpx;
+  overflow: hidden;
+}
+
+.banner  .image{
+  width: 100%;
+}
+
+.song-list {
+  display: flex;
+}

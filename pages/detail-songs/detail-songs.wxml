@@ -1,0 +1,6 @@
+<view class="list">
+  <view class="title">推荐歌曲</view>
+
+  <!-- 歌曲列表 -->
+  <song-list songlist="{{songs}}"/>
+</view>

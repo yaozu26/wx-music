@@ -1,0 +1,52 @@
+.song-item {
+  display: flex;
+  align-items: center;
+  height: 100rpx;
+  margin: 20rpx 0;
+}
+
+.left {
+  text-align: center;
+  width: 80rpx;
+}
+
+.desc {
+  flex: 1;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  width: 50rpx;
+  padding-right: 10rpx;
+}
+
+.ar {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  color: #666;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  /* 任意字符断行 */
+  word-break: break-all;
+}

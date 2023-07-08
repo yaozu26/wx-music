@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "vedio-item": "/components/vedio-item/vedio-item"
+  },
+  "enablePullDownRefresh":true,
+  "backgroundTextStyle": "dark"
+}

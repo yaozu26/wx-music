@@ -1,0 +1,34 @@
+.item {
+  width: 240rpx;
+  margin: 0 30rpx;
+}
+
+.cover {
+  position: relative;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+
+.image {
+  vertical-align: top;
+  width: 240rpx;
+}
+
+.playCount {
+  position: absolute;
+  bottom: 5rpx;
+  right: 5rpx;
+  padding: 5rpx 10rpx;
+  font-size: 24rpx;
+  border-radius: 10rpx;
+  color: #eee;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}

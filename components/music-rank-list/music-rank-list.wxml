@@ -1,0 +1,23 @@
+<wxs src="/utils/format.wxs" module="fmt"></wxs>
+
+<view class="rank-area" bindtap="onRankClick">
+  <view class="rank">
+    <view class="title">{{itemData.playlist.name}}</view>
+    <view class="song-list">
+      <block wx:for="{{tracks}}" wx:key="id">
+        <view class="item">
+          <view class="song">{{index+1}}.{{item.name}} - </view>
+          <view class="text">
+            <block wx:for="{{item.ar}}" wx:key="id">
+              <view class="tt">{{item.name}}</view>
+            </block>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+  <view class="cover">
+    <image class="image" src="{{itemData.playlist.coverImgUrl}}" mode="heightFix" />
+    <view class="count">{{fmt.formatCount(itemData.playlist.playCount)}}</view>
+  </view>
+</view>
